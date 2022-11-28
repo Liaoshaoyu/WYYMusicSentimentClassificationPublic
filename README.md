@@ -45,3 +45,6 @@ centos：https://juejin.cn/post/6844903828811153421；）
 > 后端：https://github.com/Youngestdev/fastapi-mongo
 > 
 > 前端：https://github.com/lin-xin/vue-manage-system/tree/V4.2.0
+
+### 项目预览
+地址：http://120.25.163.240:8002/
