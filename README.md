@@ -21,7 +21,8 @@ centos：https://juejin.cn/post/6844903828811153421；）
 > 1. WWYScrapy：① 修改setting.py数据库配置。② 修改配置GROUP_IDS、spiders文件夹下py文件的数据过滤（可选）
 > 2. WYYDataAnalysis：① 修改dataBase/mongodb.py的数据库配置
 > 3. WYYFastAPI：① 修改.env.dev的数据库配置
-> 4. WYYVueFront：① 修改src/api/request.js中baseURL（即后端接口地址） ②vue.config.js解决跨域问题
+> 4. WYYVueFront：① 修改src/api/request.js中baseURL（即后端接口地址） ② vue.config.js解决跨域问题
+> 5. WYYBertClassification：① 准备好数据，放到data文件夹下 ② 修改dataBase/mongodb.py的数据库配置 ③ 如果bert-base-chinese下载太慢，可以将其下载到本地
 
 ### 部署
 可参考Jenkinsfile、Dockerfile
@@ -45,6 +46,8 @@ centos：https://juejin.cn/post/6844903828811153421；）
 > 后端：https://github.com/Youngestdev/fastapi-mongo
 > 
 > 前端：https://github.com/lin-xin/vue-manage-system/tree/V4.2.0
+> 
+> 算法：https://github.com/DefuLi/Emotional-Analysis-Transformers2.0-Bert
 
 ### 项目预览
 地址：http://120.25.163.240:8002/
